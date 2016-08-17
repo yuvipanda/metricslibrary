@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import './vendor/css/bootstrap.min.css';
-import './vendor/css/yeti.bootstrap.min.css';
+import './vendor/css/bootstrap.css';
+import './vendor/css/yeti.bootstrap.css';
 
 import SearchBar from './search/searchbar';
 import MetricsList from './metrics/metricslist';
