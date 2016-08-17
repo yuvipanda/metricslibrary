@@ -55,7 +55,11 @@ const Metric = ({metric}) => {
       <span>{metric.description}</span>
     </div>
     <div className='panel-body'>
-      <Form schema={processed.schema} uiSchema={processed.uiSchema} />
+      <Form schema={processed.schema} uiSchema={processed.uiSchema} >
+        <div>
+          <button type='submit' className='btn btn-primary'>Start computing metric</button>
+        </div>
+      </Form>
     </div>
     </div>
     )
