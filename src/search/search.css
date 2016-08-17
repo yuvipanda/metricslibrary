@@ -1,0 +1,15 @@
+#searchResults {
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+    margin-top: 8px;
+}
+
+#searchResults li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+#searchResults li:hover {
+    background-color: #efefef;
+}
