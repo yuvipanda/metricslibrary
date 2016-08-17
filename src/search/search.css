@@ -3,6 +3,7 @@
     text-align: left;
     padding-left: 0px;
     margin-top: 8px;
+    min-height: 640px;
 }
 
 #searchResults li {

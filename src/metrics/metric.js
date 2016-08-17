@@ -49,12 +49,14 @@ function processMetric(metric) {
 const Metric = ({metric}) => {
     var processed = processMetric(metric);
     return (
-    <div className="metric-form">
-    <div className='metric-info'>
-      <h3>{metric.name}</h3>
-      <h4>{metric.description}</h4>
+    <div className="panel panel-default">
+    <div className='metric-info panel-heading'>
+      <div className='panel-title'><h4><strong>{metric.title}</strong></h4></div>
+      <span>{metric.description}</span>
     </div>
-    <Form schema={processed.schema} uiSchema={processed.uiSchema} />
+    <div className='panel-body'>
+      <Form schema={processed.schema} uiSchema={processed.uiSchema} />
+    </div>
     </div>
     )
 }
